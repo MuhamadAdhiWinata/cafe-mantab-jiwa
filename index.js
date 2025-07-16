@@ -12,7 +12,8 @@ const menuData = [
     title: "Double Shot Espresso",
     description: "Dua kali lebih kuat untuk energi ekstra.",
     price: "Rp 30.000",
-    imageUrl: "https://www.tastingtable.com/img/gallery/20-different-types-of-coffee-explained/intro-1659544993.jpg",
+    imageUrl:
+      "https://www.scurolavino.com/~img/~blog/2022/6/29/n7x4eeg3yhvkhxztj0dndtbl1yketwgmt5rdt7ycmywuirhwmsyj0orvhs3_2l58ey6wgw1sdyt8mlf7qoh48bv6sifbanwjey5aaggxhjyct58qbt_kopzjjazjfsizzkpxvuj1f_qza4cxr2htbjehbym_cxejnxunmpq_m3qqoarpxmzhztp3d0zxmrldwaymzxs4gewaq9ds3-ed78-3484_804-t598_25.webp",
   },
 
   // Latte
@@ -28,7 +29,7 @@ const menuData = [
     title: "Vanilla Latte",
     description: "Latte dengan ekstrak vanilla manis yang menggoda.",
     price: "Rp 35.000",
-    imageUrl: "https://www.acouplecooks.com/wp-content/uploads/2021/08/Vanilla-Latte-006.jpg",
+    imageUrl: "https://asset.kompas.com/crops/qrMdn51W_jmoyXVj4kLXpBXZ6t0=/0x0:0x0/1200x800/data/photo/2020/04/16/5e986b693a892.jpeg",
   },
 
   // Cappuccino
@@ -37,14 +38,14 @@ const menuData = [
     title: "Classic Cappuccino",
     description: "Espresso, susu steamed, dan busa susu yang seimbang.",
     price: "Rp 32.000",
-    imageUrl: "https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-Cappuccino.jpg",
+    imageUrl: "https://cdn.shopify.com/s/files/1/0093/2537/9669/files/shutterstock_1037995357_2048x2048.jpg?v=1593037563",
   },
   {
     category: "cappuccino",
     title: "Caramel Cappuccino",
     description: "Cappuccino dengan saus karamel yang lumer.",
     price: "Rp 38.000",
-    imageUrl: "https://coffeeaffection.com/wp-content/uploads/2023/02/how-to-make-a-caramel-cappuccino.jpg",
+    imageUrl: "https://i.pinimg.com/736x/da/aa/81/daaa814611e387f1cd6ff89a95689074.jpg",
   },
 
   // Cold Brew
@@ -53,14 +54,14 @@ const menuData = [
     title: "Iced Cold Brew",
     description: "Dibuat dengan proses seduh dingin 24 jam, rendah asam.",
     price: "Rp 40.000",
-    imageUrl: "https://www.starbucks.com/assets/4e321c0d0c1a4ab6b316b0b33e3a7fc2.jpg",
+    imageUrl: "https://cdn.shopify.com/s/files/1/0611/2057/7587/files/blog-ineffablecoffee-roasters-cafe-cold-brew-01.jpg?v=1742545416",
   },
   {
     category: "cold brew",
     title: "Cold Brew Coconut",
     description: "Cold brew dengan sentuhan santai kelapa tropis.",
     price: "Rp 45.000",
-    imageUrl: "https://www.acouplecooks.com/wp-content/uploads/2020/06/Coconut-Cold-Brew-006.jpg",
+    imageUrl: "https://fedandfit.com/wp-content/uploads/2022/02/230322_how-to-make-cold-brew-38-660x990.jpg",
   },
 
   // Signature Drinks
@@ -69,14 +70,15 @@ const menuData = [
     title: "Affogato",
     description: "Espresso disiram di atas es krim vanilla, sajian penutup kopi.",
     price: "Rp 50.000",
-    imageUrl: "https://www.sipandfeast.com/wp-content/uploads/2022/08/affogato-recipe-snippet.jpg",
+    imageUrl: "https://www-recipetineats-com.translate.goog/tachyon/2023/06/Affogato_0.jpg?resize=900,1125&zoom=0.72&_x_tr_sl=en&_x_tr_tl=id&_x_tr_hl=id&_x_tr_pto=imgs",
   },
   {
     category: "signature",
     title: "Matcha Espresso Fusion",
     description: "Perpaduan matcha dan espresso yang unik.",
     price: "Rp 45.000",
-    imageUrl: "https://www.alphafoodie.com/wp-content/uploads/2021/03/Matcha-Espresso-Fusion-1-of-1.jpeg",
+    imageUrl:
+      "https://scontent.fjog14-1.fna.fbcdn.net/v/t39.30808-6/475633603_2207865652949666_6982383068205098328_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=3a1ebe&_nc_eui2=AeFjSbkhlZ77eCsrOo-kF7HM-t3tehk27jD63e16GTbuMOlrhop3zStLOX1VR9_7BnLniqN9UVbmXWHlH2SF80A8&_nc_ohc=VJWHSVEautYQ7kNvwF_TDgB&_nc_oc=AdlpafRenrFkQ9mKpHfsYhzkb4bnIxKjA483dyYVNZEFsMQU8q4MPjLCUWGyxtbbr9w&_nc_zt=23&_nc_ht=scontent.fjog14-1.fna&_nc_gid=exjgacZqW_Pa-V-pPKShIw&oh=00_AfRlgG5rvW8dCmRJvQINHIxyfiP_5uAg-WK9ycZ-R7aQiQ&oe=687CD8F4",
   },
 ];
 
