@@ -77,32 +77,8 @@
       <section id="menu" class="py-16 bg-gray-100">
         <div class="max-w-6xl mx-auto px-4">
           <h2 class="text-4xl font-bold text-center mb-12 text-gray-900">Pilihan Menu Mantab Jiwa</h2>
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <!-- Loop cards: bisa di-generate pakai loop server-side -->
-            <!-- Contoh Card Menu -->
-            <div class="bg-white rounded-xl shadow-md overflow-hidden card-3d-effect" data-id="0">
-              <div class="card-3d-inner hover-lift">
-                <img class="w-full h-48 object-cover" data-bind="imageUrl" loading="lazy" />
-                <div class="p-6">
-                  <h3 class="font-bold text-xl mb-2 text-gray-900" data-bind="title"></h3>
-                  <p class="text-gray-600 text-sm mb-4" data-bind="description"></p>
-                  <span class="text-green-600 font-bold text-lg" data-bind="price"></span>
-                </div>
-              </div>
-            </div>
-
-            <div class="bg-white rounded-xl shadow-md overflow-hidden card-3d-effect" data-id="1">
-              <div class="card-3d-inner hover-lift">
-                <img class="w-full h-48 object-cover" data-bind="imageUrl" loading="lazy" />
-                <div class="p-6">
-                  <h3 class="font-bold text-xl mb-2 text-gray-900" data-bind="title"></h3>
-                  <p class="text-gray-600 text-sm mb-4" data-bind="description"></p>
-                  <span class="text-green-600 font-bold text-lg" data-bind="price"></span>
-                </div>
-              </div>
-            </div>
-
-            <!-- Tambah menu lainnya... -->
+          <div id="menu-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Card akan di-generate oleh JS dengan data-bind -->
           </div>
         </div>
       </section>

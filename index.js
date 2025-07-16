@@ -81,12 +81,38 @@ const menuData = [
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
-  document.querySelectorAll("[data-bind]").forEach((el) => {
-    const field = el.dataset.bind;
-    const index = parseInt(el.closest("[data-id]").dataset.id, 10);
-    const data = menuData[index];
-    if (!data || !(field in data)) return;
+  const menuContainer = document.getElementById("menu-container");
 
+  // 1. Buat card untuk setiap data
+  menuData.forEach((item, index) => {
+    const card = document.createElement("div");
+    card.className = "bg-white rounded-xl shadow-md overflow-hidden card-3d-effect";
+    card.dataset.id = index; // Set data-id sesuai index array
+
+    card.innerHTML = `
+      <div class="card-3d-inner hover-lift">
+        <img class="w-full h-48 object-cover" data-bind="imageUrl" loading="lazy" />
+        <div class="p-6">
+          <h3 class="font-bold text-xl mb-2 text-gray-900" data-bind="title"></h3>
+          <p class="text-gray-600 text-sm mb-4" data-bind="description"></p>
+          <span class="text-green-600 font-bold text-lg" data-bind="price"></span>
+        </div>
+      </div>
+    `;
+
+    menuContainer.appendChild(card);
+  });
+
+  // 2. Binding data ke semua card
+  document.querySelectorAll("[data-bind]").forEach((el) => {
+    const field = el.dataset.bind; // "imageUrl", "title", dll
+    const card = el.closest("[data-id]");
+    const index = parseInt(card.dataset.id, 10);
+    const data = menuData[index];
+
+    if (!data || !data[field]) return;
+
+    // Isi data
     if (el.tagName === "IMG") {
       el.src = data[field];
       el.alt = data.title || "";
